@@ -22,7 +22,15 @@
   "scripts": {
     "test": "mocha --require babel-register -w --watch-files src",
     "test1": "mocha --require babel-register -w --watch-files src -f #kata-1",
-    "test2": "mocha --require babel-register -w --watch-files src -f #kata-2"
+    "test2": "mocha --require babel-register -w --watch-files src -f #kata-2",
+    "test3": "mocha --require babel-register -w --watch-files src -f #kata-3",
+    "test4": "mocha --require babel-register -w --watch-files src -f #kata-4",
+    "test5": "mocha --require babel-register -w --watch-files src -f #kata-5",
+    "test6": "mocha --require babel-register -w --watch-files src -f #kata-6",
+    "test7": "mocha --require babel-register -w --watch-files src -f #kata-7",
+    "test8": "mocha --require babel-register -w --watch-files src -f #kata-8",
+    "test9": "mocha --require babel-register -w --watch-files src -f #kata-9",
+    "test10": "mocha --require babel-register -w --watch-files src -f #kata-10"
   },
   "dependencies": {
     "mocha": "^8.0.1"
