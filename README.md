@@ -172,7 +172,7 @@ Example 2:
 
 **Objectives:** Convert an array to string and viceversa: join, split.
 
-Given an array of humans, write a function that returns a human centipede, as a string, in which you can choose the connector symbol.\
+Given an array of humans, write a function that returns a human centipede as a string, in which you can choose the connector symbol.\
 If no symbol is sent, the function returns the humans with no connector.
 
 Example 1:
@@ -194,14 +194,24 @@ Example 3:
 
 ### Kata 8
 
-**Objectives:** Create a new array from many arrays: concat, spread operator, sort and reverse.
+**Objectives:** Create a new array from many arrays: concat, spread operator, rest params, flat, simple sort.
 
 Given many arrays, create a new one and sort it.
 
 Example 1:
 
-    Input: (['Hulk', 'Thor', 'Captain (North) America'], ['IronMan', 'Black Widow', 'Hawkeye'])
-    Output: ['Black Widow', 'Captain (North) America', 'Hawkeye', 'Hulk', 'IronMan', 'Thor']
+    Input: (
+        ['Hulk', 'Thor', 'Captain (North) America'],
+        ['IronMan', 'Black Widow', 'Hawkeye']
+    )
+    Output: [
+        'Black Widow',
+        'Captain (North) America',
+        'Hawkeye',
+        'Hulk',
+        'IronMan',
+        'Thor',
+    ]
 
 ### Kata 9
 
