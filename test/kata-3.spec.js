@@ -21,7 +21,7 @@ describe('#kata-3', function () {
     { id: '3', name: 'Solidus Snake', year: 2020 },
   ]);
 
-  it('should return [] hen nothing is sent', function () {
+  it('should return [] when nothing is sent', function () {
     const actual = JSON.stringify(kata3(), 2020);
     assert.equal(actual, '[]');
   });

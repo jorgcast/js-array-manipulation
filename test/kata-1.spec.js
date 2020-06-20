@@ -3,7 +3,7 @@ import assert from 'assert';
 import kata1 from '../src/kata-1';
 
 describe('#kata-1', function () {
-  it('should return false hen nothing is sent', function () {
+  it('should return false when nothing is sent', function () {
     assert.equal(kata1([]), false);
   });
 

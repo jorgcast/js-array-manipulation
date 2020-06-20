@@ -9,20 +9,14 @@ describe('#kata-4', function () {
     { id: '3', name: 'Pumbaa' },
   ];
 
-  const expected = JSON.stringify(['Simba', 'Timon', 'Pumbaa']);
-
-  it('should return [] hen nothing is sent', function () {
+  it('should return [] when nothing is sent', function () {
     const actual = JSON.stringify(kata4());
     assert.equal(actual, '[]');
   });
 
   it('should add the year prop', function () {
     const actual = JSON.stringify(kata4(characters));
-    assert.equal(actual, expected);
-  });
-
-  it('should modify the year prop', function () {
-    const actual = JSON.stringify(kata4(characters));
+    const expected = JSON.stringify(['Simba', 'Timon', 'Pumbaa']);
     assert.equal(actual, expected);
   });
 });

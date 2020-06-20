@@ -111,7 +111,7 @@ Example:
 
 ### Kata 5
 
-**Objectives:** Having a modified array without modifying the original data: array.filter vs array.find, immutability and cloning objects, passing arguments by reference and by value.
+**Objectives:** Create a modified array without modifying the original data: array.filter vs array.find, immutability and cloning objects, passing arguments by reference and by value.
 
 Given an array of users, write a function to update a user's firstname by passing its id.\
 This function should return the new modified array, and the original array without modification.
@@ -126,24 +126,24 @@ This function should return the new modified array, and the original array witho
 Example 1:
 
     Input: (users, '1', 'Tiny Rick')
-    Output: {[
+    Output: [[
         { id: '1', firstname: 'Tiny Rick', lastname: 'Sanchez' },
         { id: '2', firstname: 'Morty', lastname: 'Smith' },
     ],[
         { id: '1', firstname: 'Rick', lastname: 'Sanchez' },
         { id: '2', firstname: 'Morty', lastname: 'Smith' },
-    ]}
+    ]]
 
 Example 2:
 
     Input: (users, '2', 'Evil Morty')
-    Output: {[
+    Output: [[
         { id: '1', firstname: 'Rick', lastname: 'Sanchez' },
         { id: '2', firstname: 'Evil Morty', lastname: 'Smith' },
     ],[
         { id: '1', firstname: 'Rick', lastname: 'Sanchez' },
         { id: '2', firstname: 'Morty', lastname: 'Smith' },
-    ]}
+    ]]
 
 ### Kata 6
 
@@ -153,9 +153,9 @@ Write a function to know if every product in our basket has a shipping cost of 0
 Write another function to know if at least one product has a shipping cost more than 0.
 
     const basket = [
-        { id: '1', name: 'PokeBall', shippingcost: 0 },
-        { id: '2', name: 'SuperBall', shippingcost: 3 },
-        { id: '3', name: 'UltraBall', shippingcost: 5 },
+        { id: '1', name: 'PokeBall', shippingCost: 0 },
+        { id: '2', name: 'SuperBall', shippingCost: 3 },
+        { id: '3', name: 'UltraBall', shippingCost: 5 },
     ];
 
 Example 1:
@@ -165,7 +165,7 @@ Example 1:
 
 Example 2:
 
-    Input: (basket, 'one')
+    Input: (basket)
     Output: true
 
 ### Kata 7
