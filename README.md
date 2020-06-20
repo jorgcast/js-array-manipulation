@@ -96,7 +96,7 @@ Example:
 
 **Objectives:** Create a new array from an original array: map.
 
-Given an array of characters, write a function that returns a new array containing only the character's names.
+Given an array of characters, write a function that returns a new array containing only the character's names. Assume that every object has always the name prop.
 
     const characters = [
         { id: '1', name: 'Simba' },

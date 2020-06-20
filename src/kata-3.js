@@ -1,6 +1,6 @@
 /**
- * @param {number[]} array
- * @return {boolean}
+ * @param {object[]} array
+ * @return {object[]}
  */
 const kata3 = (array = [], year) => {
   const newArray = [...array];
