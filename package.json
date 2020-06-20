@@ -1,0 +1,35 @@
+{
+  "name": "js-katas-template",
+  "version": "1.0.0",
+  "description": "JS katas boilerplate to create your own JS katas project.",
+  "author": "Jorge Caster <hola@jorge-castano.com>",
+  "keywords": [
+    "katas",
+    "js-katas",
+    "katas template",
+    "template",
+    "boilerplate"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jorgcast/js-katas-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorgcast/js-katas-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgcast/js-katas-template/issues"
+  },
+  "scripts": {
+    "test": "mocha --require babel-register -w --watch-files src",
+    "test1": "mocha --require babel-register -w --watch-files src -f #kata-1",
+    "test2": "mocha --require babel-register -w --watch-files src -f #kata-2"
+  },
+  "dependencies": {
+    "mocha": "^8.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
