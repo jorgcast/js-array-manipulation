@@ -1,12 +1,12 @@
 # JS Katas - Manipulación de Array
 
-Puedes leerlo en [Castellano](README.es.md)
+Read this in [English](README.md)
 
-These katas involve array manipulation. The perfect way to know a few array methods that maybe you didn't know they exist.
+Estas katas implican manipulación de arrays. Es la manera perfecta de conocer algunos métodos que tal no conozca.
 
-Resolve every Kata in its own file, following its description bellow.
+Resuelva cada Kata en su fichero correspondiente `/src/kata-X.js`, siguiendo su descripción situada más adelante.
 
-Launch the unit tests in order to check the correct solution of the Katas.
+Lance los test unitarios para comprobar la correcta resolución de las Katas.
 
 ## Cómo probar tu código
 
