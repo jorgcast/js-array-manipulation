@@ -2,20 +2,16 @@
  * @param {number[]} array
  * @return {number}
  */
-const kata12 = (array = []) => {
-  const reducedArray = array.reduce((acc, current) => acc + current, 0);
-
-  return reducedArray;
+const kata12 = (array) => {
+  // Do something here and return a number
 };
 
 /**
  * @param {number[]} array
- * @return {number[]}
+ * @return {number}
  */
-const kata12Super = (array = []) => {
-  const reducedArray = array.reduce((acc, current) => acc + current.price, 0);
-
-  return reducedArray;
+const kata12Super = (array) => {
+  // Do something here and return a number
 };
 
 export {

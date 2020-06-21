@@ -3,7 +3,7 @@
  * @return {number[]}
  */
 const kata10 = (array = [], start, end) => {
-  return array.slice(start, end);
+  // Do something here and return an array of numbers
 };
 
 export default kata10;
