@@ -1,12 +1,12 @@
 # JS Katas - Array manipulation
 
+Puedes leerlo en [Castellano](README.es.md)
+
 These katas involve array manipulation. The perfect way to know a few array methods that maybe you didn't know they exist.
 
 Resolve every Kata in its own file, following its description bellow.
 
 Launch the unit tests in order to check the correct solution of the Katas.
-
-The solutions must be uploaded to a public github/gitlab repository.
 
 ## How to test the code
 
@@ -149,8 +149,7 @@ Example 2:
 
 **Objectives:** Know if a prop of every element of an array has the same value: every, some.
 
-Write a function to know if every product in our basket has a shipping cost of 0.\
-Write another function to know if at least one product has a shipping cost more than 0.
+Write a function to know if every product in our basket, or at least one, has a shipping cost greater than 0.
 
     const basket = [
         { id: '1', name: 'PokeBall', shippingCost: 0 },
@@ -162,11 +161,13 @@ Example 1:
 
     Input: (basket, 'all')
     Output: false
+    Explanation: Sending the tag `all` we check if every element has a shipping cost greater than 0.
 
 Example 2:
 
     Input: (basket)
     Output: true
+    Explanation: By not sending any tag we check if some element has a shipping cost greater than 0.
 
 ### Kata 7
 
@@ -190,7 +191,7 @@ Example 3:
     Input: (['man', 'woman'])
     Output: 'manwoman'
 
-**Superpower:** Strings can be splitted up an converted to array with the String.split method. The same way, we can pass a symbol to act as the separator.
+**Superpower:** Strings can be splitted up an converted to array with the `String.split` method. The same way, we can pass a symbol to act as the separator.
 
 ### Kata 8
 
@@ -201,8 +202,9 @@ Given many arrays, create a new one and sort it.
 Example 1:
 
     Input: (
-        ['Hulk', 'Thor', 'Captain (North) America'],
-        ['IronMan', 'Black Widow', 'Hawkeye']
+        ['Hulk', 'Thor'],
+        ['Captain (North) America', 'IronMan'],
+        ['Black Widow', 'Hawkeye'],
     )
     Output: [
         'Black Widow',
@@ -273,7 +275,7 @@ Example 3:
 
 ### Kata 11
 
-**Objectives:** Remove and add elements from an array based on the position: splice, rest operator, spread operator.
+**Objectives:** Remove and add elements from an array based on the position: splice, rest params, spread operator.
 
 Given an array of numbers, write a function that returns a modified array that has removed as many elements as passed in the selected position. It can also insert new values at the removal position.
 
@@ -283,13 +285,13 @@ Example 1:
 
     Input: ([1, 2, 3], 0, 1, 8)
     Output: [8, 2, 3]
-    Explanation: removes 1 element and inserts an 8 at postion 0
+    Explanation: removes 1 element and inserts an 8 at position 0
 
 Example 2:
 
     Input: ([1, 2, 3], 7, 1)
     Output: [1, 2, 3]
-    Explanation: removes 1 element at postion 7
+    Explanation: removes 1 element at position 7
 
 Example 3:
 
