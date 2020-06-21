@@ -273,7 +273,7 @@ Example 3:
 
 ### Kata 11
 
-**Objectives:** Remove and add elements from an array based on the position: splice.
+**Objectives:** Remove and add elements from an array based on the position: splice, rest operator, spread operator.
 
 Given an array of numbers, write a function that returns a modified array that has removed as many elements as passed in the selected position. It can also insert new values at the removal position.
 
@@ -281,31 +281,46 @@ Given an array of numbers, write a function that returns a modified array that h
 
 Example 1:
 
-    Input: ([1, 2, 3], 1, 1, 8)
-    Output: [1, 8, 3]
+    Input: ([1, 2, 3], 0, 1, 8)
+    Output: [8, 2, 3]
+    Explanation: removes 1 element and inserts an 8 at postion 0
 
 Example 2:
 
     Input: ([1, 2, 3], 7, 1)
     Output: [1, 2, 3]
+    Explanation: removes 1 element at postion 7
 
 Example 3:
 
     Input: ([1, 2, 3], 0, 3, 5)
     Output: [5]
+    Explanation: removes 3 elements and inserts a 5 at position 0
 
 Example 4:
 
-    Input: ([1, 2, 3], 0, 0, 6)
-    Output: [6, 1, 2, 3]
+    Input: ([1, 2, 3], 1, 0, 6, 4)
+    Output: [1, 6, 4, 2, 3]
+    Explanation: removes 0 elements and inserts a 6 and a 4 at position 1
 
 ### Kata 12
 
-**Objectives:** Use the array to create another type of data: reduce.
+**Objectives:** Use an array to create another type of data: reduce.
+
+Given an array of numbers, write a function that returns the total amount.
+
+**Note:** It also exists a reduceRight method to apply a function to every element of an array starting from the last.
+
+Example 1:
+
+    Input: [5, 11, 4, 18]
+    Output: 38
+
+**Superpower:** Use the reduce function with an array of objects.
 
 Given a supermarket ticket, as an array of products and prices, write a function that returns the total amount of money spent.
 
-Example:
+Example 2:
 
     Input: [
         { product: 'cheese steak jimmys', price: 7 },
@@ -314,5 +329,3 @@ Example:
         { product: 'rock on', price: 9 },
     ]
     Output: 35
-
-**Superpowers:** It also exists a reduceRight method to apply a function to every element of an array starting from the last.
