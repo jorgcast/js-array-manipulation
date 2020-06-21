@@ -170,7 +170,7 @@ Example 2:
 
 ### Kata 7
 
-**Objectives:** Convert an array to string and viceversa: join, split.
+**Objectives:** Convert an array to string and viceversa: toString, join, split.
 
 Given an array of humans, write a function that returns a human centipede as a string, in which you can choose the connector symbol.\
 If no symbol is sent, the function returns the humans with no connector.
