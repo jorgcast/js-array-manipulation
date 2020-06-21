@@ -21,7 +21,7 @@
   },
   "scripts": {
     "test": "mocha --require babel-register -w --watch-files src",
-    "test1": "mocha --require babel-register -w --watch-files src -f #kata-1",
+    "test1": "mocha --require babel-register -w --watch-files src -f #kata-01",
     "test2": "mocha --require babel-register -w --watch-files src -f #kata-2",
     "test3": "mocha --require babel-register -w --watch-files src -f #kata-3",
     "test4": "mocha --require babel-register -w --watch-files src -f #kata-4",
