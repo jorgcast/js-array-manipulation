@@ -38,6 +38,10 @@ const actions = {
   },
 };
 
+/**
+ * @param {number[]} array
+ * @return {number[]}
+ */
 const kata2Super = (array = [], position, newElement) => {
   actions[position](array, newElement);
 

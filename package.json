@@ -30,7 +30,9 @@
     "test7": "mocha --require babel-register -w --watch-files src -f #kata-7",
     "test8": "mocha --require babel-register -w --watch-files src -f #kata-8",
     "test9": "mocha --require babel-register -w --watch-files src -f #kata-9",
-    "test10": "mocha --require babel-register -w --watch-files src -f #kata-10"
+    "test10": "mocha --require babel-register -w --watch-files src -f #kata-10",
+    "test11": "mocha --require babel-register -w --watch-files src -f #kata-11",
+    "test12": "mocha --require babel-register -w --watch-files src -f #kata-12"
   },
   "dependencies": {
     "mocha": "^8.0.1"

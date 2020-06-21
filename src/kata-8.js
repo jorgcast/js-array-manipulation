@@ -1,6 +1,6 @@
 /**
  * @param {string[]} array
- * @return {string}
+ * @return {string[]}
  */
 const kata8 = (array = [], ...otherArrays) => {
   const restArrays = otherArrays.flat();

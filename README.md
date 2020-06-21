@@ -217,7 +217,9 @@ Example 1:
 
 **Objectives:** Sort an array by an object property: sort.
 
-Given an array of products, write a function to sort it by a variable prop.
+Given an array of products, write a function to sort it by a variable prop. Assume every product will have name and category properties.
+
+**Note:** Be aware that sort mutates the original array.
 
     const products = [
         { name: 'roomba', category: 'home' },
@@ -228,32 +230,22 @@ Given an array of products, write a function to sort it by a variable prop.
 Example 1:
 
     Input: (products, 'name')
-    Output: [{
-        name: 'iPad',
-        category: 'electronics',
-    }, {
-        name: 'lego Star Wars',
-        category: 'toys',
-    }, {
-        name: 'roomba',
-        category: 'home',
-    }]
+    Output: [
+        { name: 'iPad', category: 'electronics' },
+        { name: 'lego Star Wars', category: 'toys' },
+        { name: 'roomba', category: 'home' },
+    ]
 
 Example 2:
 
     Input: (products, 'category')
-    Output: [{
-        name: 'iPad',
-        category: 'electronics',
-    }, {
-        name: 'roomba',
-        category: 'home',
-    }, {
-        name: 'lego Star Wars',
-        category: 'toys',
-    }]
+    Output: [
+        { name: 'iPad', category: 'electronics' },
+        { name: 'roomba', category: 'home' },
+        { name: 'lego Star Wars', category: 'toys' },
+    ]
 
-**Superpower:** Arrays can also be reversed, but this method doesn't admit a callback or function to reverse the array following a certain condition. But be careful, the reverse method mutates the original array. Use it wisely.
+**Superpower:** Arrays can also be reversed, but this method doesn't admit a callback or function to reverse the array following a certain condition. The reverse method reverses the given array. Be careful: the reverse method mutates the original array. Use it wisely.
 
 ### Kata 10
 
@@ -265,16 +257,19 @@ Example 1:
 
     Input: ([1, 2, 3], 0, 1)
     Output: [1]
+    Explanation: start position is 0 and the end position is 1.
 
 Example 2:
 
     Input: ([1, 2, 3], 1, 2)
     Output: [2]
+    Explanation: start position is 1 and the end position is 2.
 
 Example 3:
 
     Input: ([1, 2, 3], 1)
     Output: [2, 3]
+    Explanation: start position is 1 with no end position.
 
 ### Kata 11
 
