@@ -35,7 +35,7 @@
     "test12": "mocha --require babel-register -w --watch-files src -f #kata-12"
   },
   "dependencies": {
-    "mocha": "^8.0.1"
+    "mocha": "^8.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
